@@ -1,0 +1,33 @@
+<!DOCTYPE HTML>
+<html>
+
+    <head>
+        <title>VDI Gateway</title>
+        <link rel="stylesheet" type="text/css" href="css/beauty.css">
+        <link href="https://fonts.googleapis.com/css?family=Work+Sans" rel="stylesheet">
+    </head>
+
+    <body onload="ready();">
+        <script type="text/javascript" src="guacamole-common-js/all.min.js"></script>
+        <script type="text/javascript" src="client.js"></script>
+        <script type="text/javascript" src="ui.js"></script>
+        <div id="login">
+            <img id="cloudbaselogo" src="CBSL-Logo-Small.svg"></img>
+            <input id="username_field" type="text" value="Username">
+            <input id="password_field" type="password" value="abc">
+            <input id="project_field" type="text" value="Project">
+            <button id="login_button" type="button">Login</button>
+        </div>
+        <div id="logged">
+            <div id="logged_username"></div>
+            <button id="logout_button" type="button">Logout</button>
+            <div id="application_list"></div>
+        </div>
+        <div id="session">
+            <div id="display"></div>
+            <button id="close_session" type="button">Close</button>
+        </div>
+        <div id="log_field"></div>
+    </body>
+
+</html>

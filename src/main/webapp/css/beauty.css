@@ -1,0 +1,179 @@
+body {
+    background-image: url("../img/texture.png");
+    background-repeat: repeat-x repeat-y;
+    overflow: hidden;
+}
+div#logged_username {
+    position: absolute;
+    font-size: 40px;
+}
+
+button {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 20px;
+    border: 0px;
+    border-radius: 10px;
+    background-color: #8cd0ff;
+}
+
+button#logout_button {
+    float: right;
+    width: 100px;
+    height: 30px;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 20px;
+}
+
+div#logged {
+    position: initial;
+    overflow: hidden;
+}
+
+div#login {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 300px;
+    height: 200px;
+    margin-left: -150px;
+    margin-top: -100px;
+}
+
+button#login_button {
+    width: 60%;
+    padding: 10px;
+    margin-left: 20%;
+    margin-top: 10%;
+    font-family: 'Work Sans', sans-serif;
+}
+
+input {
+    width: 100%;
+    height: 20%;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 30px;
+    border-radius: 15px;
+    border-color: #8cd0ff;
+    border-width: 1px;
+    margin-bottom: 5px;
+}
+
+img#cloudbaselogo {
+    margin-bottom: 5%;
+    width: 100%;
+}
+
+button#login_button {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 25px;
+}
+
+div#log_field {
+    position: absolute;
+    bottom:0;
+    border: 0px;
+    padding: 0;
+    margin-left: 20%;
+    width: 60%;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 25px;
+    text-align: center;
+}
+
+div {
+    position:absolute;
+    font-family: 'Work Sans', sans-serif;
+}
+
+img.app_button_icon {
+    position: inherit;
+    height: 100%;
+    cursor: pointer;
+}
+
+div.app_button {
+    position: initial;
+    height: 100px;
+    width: 100%;
+    background: #cbbfa8;
+    overflow: hidden;
+    margin-bottom: 5px;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.app_button_name {
+    position: inherit;
+    float: right;
+    height: 30%;
+    margin-top: 7.5%;
+    width: 80%;
+    font-size: 22px;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+div#application_list {
+    position: initial;
+    width: 500px;
+    margin-top: 150px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div.desktop_button {
+    position: initial;
+    height: 100px;
+    width: 100%;
+    background: #a885e1;
+    overflow: hidden;
+    margin-bottom: 5px;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+div#desktop_list {
+    position: absolute;
+    width: 500px;
+    margin-top: 100px;
+    right: 8px;
+}
+
+img#desk_button_icon {
+    float: right;
+    height: 100%;
+    right: 0;
+    cursor: pointer;
+}
+
+.desk_button_name {
+    font-size: 22px;
+    height: 30%;
+    width: 80%;
+    margin-top: 7.5%;
+    text-align: center;
+    cursor: pointer;
+}
+
+div#display {
+    position: relative;
+    display: table;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+button#close_session {
+    position: inherit;
+    float: right;
+    width: 70px;
+    height: 30px;
+}
+
+div#session {
+    position: initial;
+}
+
+button {
+    cursor: pointer;
+}
